@@ -1,6 +1,6 @@
 try:
     import gzip
-except ValueError:
+except ModuleNotFoundError:
     pass
 
 import datetime
